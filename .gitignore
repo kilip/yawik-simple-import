@@ -1,4 +1,3 @@
 *~
-/test/coverage
-/test/build
-/test/phpunit.xml
+phpunit.xml
+vendor

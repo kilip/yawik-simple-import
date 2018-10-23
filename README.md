@@ -37,11 +37,42 @@ Configuration
 
 TBD
 
+
 Documentation
 -------------
 
 http://yawik.readthedocs.io/en/latest/modules/simple-import/index.html
 
+Development
+-------
+1.  Clone project
+```sh
+$ git clone git@github.com:yawik/SimpleImport.git /path/to/simple-import 
+```
+
+2. Install dependencies:
+```sh
+$ composer install
+```
+
+3. Run PHPUnit Tests
+```sh
+$ ./vendor/bin/phpunit
+```
+
+4. Run Behat Tests
+```sh
+
+# start selenium
+$ composer run start-selenium --timeout=0
+
+# start php server
+$ composer run serve --timeout=0
+
+# run behat
+$ ./vendor/bin/behat
+
+```
 
 Licence
 -------

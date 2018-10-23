@@ -29,7 +29,7 @@ class Module implements DependencyIndicatorInterface, ConsoleUsageProviderInterf
      */
     public function getConfig()
     {
-        return ModuleConfigLoader::load(__DIR__ . '/config');
+        return ModuleConfigLoader::load(__DIR__ . '/../config');
     }
 
     /**
